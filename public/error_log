@@ -1,0 +1,82 @@
+[18-May-2019 20:40:01 UTC] PHP Warning:  Unterminated comment starting line 180 in /home/puretag/public_html/config/app.php on line 180
+[18-May-2019 20:40:01 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpExcepti in /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-May-2019 20:41:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpExcepti in /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[23-May-2019 09:08:18 UTC] PHP Warning:  Uncaught ErrorException: require_once(TwitterOauth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(Tw...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/home/puretag/p...' in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:08:18 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'TwitterOauth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:09:01 UTC] PHP Warning:  Uncaught ErrorException: require_once(Abraham\TwitterOAuth\TwitterOAuth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(Ab...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngine->get in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:09:01 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'Abraham\TwitterOAuth\TwitterOAuth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:10:42 UTC] PHP Warning:  Uncaught ErrorException: require_once(/Abraham/TwitterOAuth/TwitterOAuth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/A...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngine->ge in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:10:42 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required '/Abraham/TwitterOAuth/TwitterOAuth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:11:32 UTC] PHP Warning:  Uncaught ErrorException: require_once(vendor/Abraham/TwitterOAuth/TwitterOAuth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(ve...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngi in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:11:32 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'vendor/Abraham/TwitterOAuth/TwitterOAuth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:35:43 UTC] PHP Warning:  Uncaught ErrorException: require_once(vendor/Abraham/TwitterOAuth/TwitterOAuth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(ve...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngi in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 09:35:43 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'vendor/Abraham/TwitterOAuth/TwitterOAuth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 10:32:40 UTC] PHP Warning:  Uncaught ErrorException: require_once(vendor/Abraham/TwitterOAuth/TwitterOAuth): failed to open stream: No such file or directory in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php:62
+Stack trace:
+#0 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(ve...', '/home/puretag/p...', 62, Array)
+#1 /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php(62): require_once()
+#2 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/puretag/p...', Array)
+#4 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngi in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[23-May-2019 10:32:40 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'vendor/Abraham/TwitterOAuth/TwitterOAuth' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/storage/framework/views/a06913b07233bc61f4af6d94bd592af8e741bafa.php on line 62
+[26-May-2019 13:07:36 UTC] PHP Warning:  Uncaught ErrorException: require(episo\EpiTwitter.php): failed to open stream: No such file or directory in /home/puretag/public_html/app/Http/Controllers/SocialAuthController.php:15
+Stack trace:
+#0 /home/puretag/public_html/app/Http/Controllers/SocialAuthController.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(episo\\E...', '/home/puretag/p...', 15, Array)
+#1 /home/puretag/public_html/app/Http/Controllers/SocialAuthController.php(15): require()
+#2 /home/puretag/public_html/vendor/composer/ClassLoader.php(444): include('/home/puretag/p...')
+#3 /home/puretag/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/puretag/p...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/puretag/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('App\\Http\\Contro...')
+#7 /home/puret in /home/puretag/public_html/app/Http/Controllers/SocialAuthController.php on line 15
+[26-May-2019 13:07:36 UTC] PHP Fatal error:  main(): Failed opening required 'episo\EpiTwitter.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/puretag/public_html/app/Http/Controllers/SocialAuthController.php on line 15
+[26-May-2019 13:09:47 UTC] PHP Fatal error:  Class 'Laravel\episo\EpiOAuth' not found in /home/puretag/public_html/app/Http/Controllers/episo/EpiTwitter.php on line 13
+[26-May-2019 13:10:22 UTC] PHP Fatal error:  Class 'EpiOAuth' not found in /home/puretag/public_html/app/Http/Controllers/episo/EpiTwitter.php on line 12
+[26-May-2019 13:10:43 UTC] PHP Fatal error:  Class 'Laravel\episo\Exception' not found in /home/puretag/public_html/app/Http/Controllers/episo/EpiOAuth.php on line 430
+[26-May-2019 13:11:06 UTC] PHP Fatal error:  Class 'Laravel\episo\Exception' not found in /home/puretag/public_html/app/Http/Controllers/episo/EpiOAuth.php on line 430
+[26-May-2019 13:14:57 UTC] PHP Fatal error:  Cannot declare class EpiTwitter, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiTwitter.php on line 160
+[26-May-2019 13:19:54 UTC] PHP Fatal error:  Cannot declare class EpiOAuthException, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiOAuth.php on line 446
+[26-May-2019 13:21:05 UTC] PHP Fatal error:  Cannot declare class EpiTwitter, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiTwitter.php on line 160
+[26-May-2019 13:22:45 UTC] PHP Fatal error:  Cannot declare class EpiOAuthException, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiOAuth.php on line 446
+[26-May-2019 13:23:25 UTC] PHP Fatal error:  Cannot declare class EpiOAuthException, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiOAuth.php on line 446
+[26-May-2019 13:25:05 UTC] PHP Fatal error:  Cannot declare class EpiTwitter, because the name is already in use in /home/puretag/public_html/app/Http/Controllers/EpiTwitter.php on line 159
